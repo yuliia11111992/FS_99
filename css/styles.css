@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.header {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: -0.03em;
+}
+
+.header-navigation {
+
+}
+
+.header-logo {}
+
+.header-logo-image {}
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #111;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+
+}
+.header-menu-link:hover, .header-menu-link:focus {
+color: #FD9222;
+}
+
+.header-soc-list {}
+
+.header-soc-item {}
+.header-soc-item-link{}
+.target {}
+.header-logo-italic {
+    font-style: italic;
+}
+
+.hero {
+    background-color: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+    color: #FFF;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.84px;
+}
+
+.hero-btn {
+    color: #FFF;
+    font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+}
+.hero-btn:hover, :focus {
+    background-color: #fcf1eb;
+    color:#FD9222;
+}
+
+.hero-btn-link {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.hero-btn-link:hover, :focus {
+    border color: ;: #FD9222;
+    color:#FD9222;
+}
+    
+.hero-btn-down {
+    color: #FFF;
+    font-size: 14px;
+font-weight: 500;
+line-height: 1.29;
+letter-spacing: -0.03em;
+}
+
+.hero-btn-link:hover, :focus {
+    border: #FD9222;
+    color:#FD9222;
+}
+
+.features {
+background-color: #1E1823;;
+}
+
+.features_list {}
+
+.features_item {}
+
+.features_subtitle {
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+}
+
+.features_item_text {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.taste {
+}
+.taste-title {
+}
+.taste-list {
+}
+.taste_item {
+}
+.taste-img {
+}
+.taste_subtitle {
+}
