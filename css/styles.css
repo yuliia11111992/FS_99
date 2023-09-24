@@ -88,7 +88,7 @@ color: #FD9222;
 }
 
 .hero-btn-link:hover, :focus {
-    border color: ;: #FD9222;
+    border-color:  #FD9222;
     color:#FD9222;
 }
     
@@ -126,9 +126,20 @@ font-size: 14px;
 line-height: 1.29;
 letter-spacing: -0.02em;
 }
+/**============taste===========*/
 .taste {
 }
 .taste-title {
+    color: #111;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.taste-title span{
+    color:#FD9222
 }
 .taste-list {
 }
@@ -137,4 +148,46 @@ letter-spacing: -0.02em;
 .taste-img {
 }
 .taste_subtitle {
+    color: #111;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+.made {
+}
+.made_title {
+    color: #111;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.03em;
+}
+.made_title span {
+    color: #FD9222;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.02em;
+}
+.made-img {
+}
+.made_subtitle {
+    color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+}
+.made_list {
+}
+.made_item {
+}
+.made_list_text {
+    color: #111;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29;
+letter-spacing: -0.02em;
 }
