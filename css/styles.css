@@ -13,6 +13,8 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  /**============================*/
+  /**============header===========*/
 .header {
     color: #111;
         font-family: Montserrat;
@@ -54,7 +56,8 @@ color: #FD9222;
 .header-logo-italic {
     font-style: italic;
 }
-
+/**============================*/
+/**============hero===========*/
 .hero {
     background-color: rgba(17, 17, 17, 0.6);
 }
@@ -104,7 +107,8 @@ letter-spacing: -0.03em;
     border: #FD9222;
     color:#FD9222;
 }
-
+/**============================*/
+/**============features===========*/
 .features {
 background-color: #1E1823;;
 }
@@ -126,6 +130,7 @@ font-size: 14px;
 line-height: 1.29;
 letter-spacing: -0.02em;
 }
+/**============================*/
 /**============taste===========*/
 .taste {
 }
@@ -154,7 +159,8 @@ font-weight: 600;
 line-height: 1.29;
 letter-spacing: -0.02em;
 }
-
+/**============================*/
+/**============made===========*/
 .made {
 }
 .made_title {
@@ -190,4 +196,196 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.29;
 letter-spacing: -0.02em;
+}
+/**============================*/
+/**============products===========*/
+.products {
+}
+.products_title {
+    color: #111;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.77;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.products_title span {
+    color: #FD9222;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.77;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.products_list {
+}
+.products_item_list {
+}
+.products_item_list {
+}
+.products_item_subtitle {
+    color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+}
+.products_item_text {
+    color: rgba(17, 17, 17, 0.70);
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: -0.02em;
+}
+.broducts_btn {
+    color: #111;
+font-family: inherit;
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+/**============================*/
+/**==========sellers============*/
+
+
+.sellers {
+}
+.sellers_title {
+    color: #111;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.sellers_title span {
+    color: #FD9222;
+    }
+.sellers_title span {
+
+}
+.sellers_list {
+    
+}
+.sellers_item {
+}
+.sellers_img {
+}
+.sellers_subtite {
+    color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+/**============================*/
+/**==========loved============*/
+.loved {
+}
+.loved_title {
+    color: #111;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.loved_title span {
+    color: #FD9222;
+}
+.loved_list {
+}
+.loved_item {
+}
+.loved_img {
+}
+.loved_subtitle {
+    color: #111;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+}
+.loved_item_text {
+    color: rgba(17, 17, 17, 0.70);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.loved_btn {
+    color: #111;
+    font-family: inherit;
+    font-size: 18px;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+.loved_btn:hover,
+.loved_btn:focus {
+    color:#FFFF;
+    background-color: #FD9222;
+}
+/**============================*/
+/**==========footer============*/
+.footer {
+    background: #1E1823;
+}
+.footer_text {
+    color: #FFF;
+font-size: 28px;
+font-weight: 500;
+line-height: 1.21;
+letter-spacing: -0.02em;
+}
+.footer_text span {
+    color: #FD9222;
+}
+.footer_subtitle {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.29;
+}
+.footer_soc_list {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.footer_soc_item {
+}
+.footer_address {
+    font-style: normal;
+}
+.footer_address_list {
+}
+.footer_address_item {
+}
+.footer_address_link {
+}
+.navigation {
+}
+.footer_menu_list {
+}
+.footer_menu_item {
+}
+.footer_menu_link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+.footer_menu_link:hover,
+.footer_menu_link:focus {
+    color:#FD9222;
 }
