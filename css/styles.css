@@ -1,6 +1,29 @@
 body {
     font-family: "Montserrat", sans-serif;
   }
+  p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  button {
+    cursor: pointer;
+  }
+  img {
+    display: block;
+  }
+  address{
+    font-style: normal;
+  }
   .visually-hidden {
       position: absolute;
       width: 1px;
@@ -59,15 +82,20 @@ body {
   /**============================*/
   /**============hero===========*/
   .hero {
-      background-color: rgba(17, 17, 17, 0.6);
+
   }
-  
+  .hero-cotainer {
+background-color: rgba(17, 17, 17, 0.60); 
+border-radius: 30px;
+padding: 380 px 40 px 40 px 40px;
+  }
   .hero-title {
       color: #FFF;
           font-size: 28px;
           font-weight: 500;
           line-height: 34px;
           letter-spacing: -0.84px;
+          max-height: 484px;
   }
   
   .hero-btn {
@@ -109,6 +137,9 @@ body {
   }
   /**============================*/
   /**============features===========*/
+  .container {
+    width: 11;
+  }
   .features {
   background-color: #1E1823;;
   }
@@ -239,7 +270,7 @@ body {
   line-height: 1.17;
   letter-spacing: -0.02em;
   }
-  .broducts_btn {
+  .products_btn {
       color: #111;
   font-family: inherit;
   font-size: 14px;
@@ -274,7 +305,7 @@ body {
   }
   .sellers_img {
   }
-  .sellers_subtite {
+  .sellers_subtitle {
       color: #111;
   font-size: 18px;
   font-weight: 600;
