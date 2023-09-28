@@ -24,7 +24,14 @@ body {
   address{
     font-style: normal;
   }
-  .visually-hidden {
+  .container{
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+
+  }  .visually-hidden {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -82,19 +89,19 @@ body {
   /**============================*/
   /**============hero===========*/
   .hero {
-
+padding-bottom: 80px;
   }
-  .hero-cotainer {
+  .hero-container {
 background-color: rgba(17, 17, 17, 0.60); 
 border-radius: 30px;
-padding: 380 px 40 px 40 px 40px;
+padding: 380px 40px 40px 40px;
   }
   .hero-title {
       color: #FFF;
           font-size: 28px;
           font-weight: 500;
-          line-height: 34px;
-          letter-spacing: -0.84px;
+          line-height: 1.21;
+          letter-spacing: -0.03em;
           max-height: 484px;
   }
   
@@ -137,11 +144,12 @@ padding: 380 px 40 px 40 px 40px;
   }
   /**============================*/
   /**============features===========*/
-  .container {
-    width: 11;
-  }
+  
   .features {
-  background-color: #1E1823;;
+  background-color: #1E1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
   }
   
   .features_list {}
@@ -153,6 +161,7 @@ padding: 380 px 40 px 40 px 40px;
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 18px;
   }
   
   .features_item_text {
@@ -164,8 +173,11 @@ padding: 380 px 40 px 40 px 40px;
   /**============================*/
   /**============taste===========*/
   .taste {
+    padding-top: 120px;
   }
   .taste-title {
+    max-width: 412px;
+    margin: 0 auto;
       color: #111;
   text-align: center;
   font-size: 24px;
@@ -173,6 +185,8 @@ padding: 380 px 40 px 40 px 40px;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  margin-bottom: 50px;
+
   }
   .taste-title span{
       color:#FD9222
@@ -180,8 +194,12 @@ padding: 380 px 40 px 40 px 40px;
   .taste-list {
   }
   .taste_item {
+    background-color: #FD9222;
+    pad: 28px, 23px;
+    border-radius: 15px;
   }
   .taste-img {
+    margin-bottom: 36px;
   }
   .taste_subtitle {
       color: #111;
@@ -193,6 +211,7 @@ padding: 380 px 40 px 40 px 40px;
   /**============================*/
   /**============made===========*/
   .made {
+    padding-top: 120px;
   }
   .made_title {
       color: #111;
@@ -216,10 +235,15 @@ padding: 380 px 40 px 40 px 40px;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  margin-bottom: 28px;
   }
   .made_list {
   }
   .made_item {
+    margin-bottom: 24px;
+  }
+  .made_item:last-child {
+margin-bottom: 0;
   }
   .made_list_text {
       color: #111;
@@ -231,6 +255,8 @@ padding: 380 px 40 px 40 px 40px;
   /**============================*/
   /**============products===========*/
   .products {
+    padding-top: 120px;
+   
   }
   .products_title {
       color: #111;
@@ -239,6 +265,7 @@ padding: 380 px 40 px 40 px 40px;
   font-weight: 600;
   line-height: 1.77;
   letter-spacing: -0.03em;
+  margin-top: 50px;
   text-transform: uppercase;
   }
   .products_title span {
@@ -282,7 +309,8 @@ padding: 380 px 40 px 40 px 40px;
   /**==========sellers============*/
   
   
-  .sellers {
+  .sellers { padding-top: 120px;
+    
   }
   .sellers_title {
       color: #111;
@@ -291,6 +319,7 @@ padding: 380 px 40 px 40 px 40px;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  margin-bottom: 50px;
   }
   .sellers_title span {
       color: #FD9222;
@@ -312,6 +341,13 @@ padding: 380 px 40 px 40 px 40px;
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: center;
+  border: 1px solid rgba(17, 17, 17, 0.10) ;
+  border-top: none;
+  background: #FFF;
+
   }
   /**============================*/
   /**==========loved============*/
